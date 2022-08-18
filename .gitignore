@@ -1,0 +1,4 @@
+build
+*.obj
+/ffmpeg-master-windows-desktop-clang-lite.tar
+/.vscode/settings.json
