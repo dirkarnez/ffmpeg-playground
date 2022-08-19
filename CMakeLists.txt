@@ -15,13 +15,6 @@ set_property(
   TARGET ffmpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG
 )
 
-set(MY_SHARED_LIBS
-  "${_IMPORT_PREFIX}/"
-    "D:/Code Projects/ffmpeg-clang/ffmpeg-master-windows-desktop-clang-lite.tar/lib/x64/avutil.lib" 
-    "D:/Code Projects/ffmpeg-clang/ffmpeg-master-windows-desktop-clang-lite.tar/lib/x64/avformat.lib"
-)
-
-# "${FFMPEG_ROOT}/lib/x64/avcodec.lib;${FFMPEG_ROOT}/lib/x64/avdevice.lib;${FFMPEG_ROOT}/lib/x64/avfilter.lib;${FFMPEG_ROOT}/lib/x64/avformat.lib;${FFMPEG_ROOT}/lib/x64/avutil.lib;${FFMPEG_ROOT}/lib/x64/ffmpeg.lib;${FFMPEG_ROOT}/lib/x64/swresample.lib;${FFMPEG_ROOT}/lib/x64/swscale.lib"
 set_target_properties(ffmpeg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
   IMPORTED_LOCATION_DEBUG "${FFMPEG_ROOT}/lib/x64/ffmpeg.lib"
