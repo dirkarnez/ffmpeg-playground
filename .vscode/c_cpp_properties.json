@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:\\Code Projects\\ffmpeg-clang\\ffmpeg-master-windows-desktop-clang-lite.tar\\include\\**"
+                "D:\\Code Projects\\cpp-libraries\\ffmpeg-vtest-x86_64-posix-seh-rev0-8.1.0\\include\\**"
             ],
             "defines": [
                 "_DEBUG",
